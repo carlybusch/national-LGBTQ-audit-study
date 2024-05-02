@@ -12,8 +12,8 @@ library(reghelper)
 library(reshape2)
 library(nnet)
 
-my_data <- read.csv("24.3.28_deid_nationalaudit.csv")
-audit_data <- read.csv("24.3.28_deid_nationalaudit_fulldf.csv")
+my_data <- read.csv("24.5.2_datas2.csv")
+audit_data <- read.csv("24.5.2_datas1.csv")
 
 #### setting reference groups ----
 my_data$religion3 <- factor(my_data$religion3, 
